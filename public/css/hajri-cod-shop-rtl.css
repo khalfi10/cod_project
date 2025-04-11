@@ -1,0 +1,203 @@
+/**
+ * RTL (Right-to-Left) support for Hajri COD Shop
+ *
+ * @link       https://example.com
+ * @since      1.0.0
+ *
+ * @package    Hajri_Cod_Shop
+ * @subpackage Hajri_Cod_Shop/public/css
+ */
+
+/* General RTL Styles */
+body.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Form Fields */
+body.rtl .hajri-form-field {
+    text-align: right;
+}
+
+body.rtl .hajri-form-field label {
+    display: block;
+    text-align: right;
+}
+
+/* Labels and Buttons */
+body.rtl .hajri-form-label {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+body.rtl .hajri-button {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+/* Floats and Alignments */
+body.rtl .hajri-float-left {
+    float: right;
+}
+
+body.rtl .hajri-float-right {
+    float: left;
+}
+
+body.rtl .hajri-text-right {
+    text-align: left;
+}
+
+body.rtl .hajri-text-left {
+    text-align: right;
+}
+
+/* Tables */
+body.rtl .hajri-table th,
+body.rtl .hajri-table td {
+    text-align: right;
+}
+
+/* Navigation and Menus */
+body.rtl .hajri-nav {
+    padding-right: 0;
+}
+
+body.rtl .hajri-nav li {
+    float: right;
+}
+
+/* Product Order Form */
+body.rtl .hajri-product-form .hajri-form-row {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-product-form .hajri-product-image {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+body.rtl .hajri-product-form .hajri-product-details {
+    text-align: right;
+}
+
+/* Icons and Decorations */
+body.rtl .hajri-icon {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+body.rtl .hajri-bullet-list li:before {
+    margin-left: 8px;
+    margin-right: 0;
+    float: right;
+}
+
+/* Order Summary */
+body.rtl .hajri-order-summary {
+    text-align: right;
+}
+
+body.rtl .hajri-order-summary .hajri-summary-row {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-order-summary .hajri-summary-label {
+    text-align: right;
+}
+
+body.rtl .hajri-order-summary .hajri-summary-value {
+    text-align: left;
+}
+
+/* Customer Information Form */
+body.rtl .hajri-customer-info {
+    text-align: right;
+}
+
+/* Checkout Steps */
+body.rtl .hajri-checkout-steps {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-checkout-step:after {
+    left: -15px;
+    right: auto;
+    transform: rotate(180deg);
+}
+
+/* Miscellaneous */
+body.rtl .hajri-card-header {
+    text-align: right;
+}
+
+body.rtl .hajri-card-content {
+    text-align: right;
+}
+
+/* Adapt inputs with icons */
+body.rtl .hajri-input-with-icon {
+    padding-right: 35px;
+    padding-left: 10px;
+}
+
+body.rtl .hajri-input-icon {
+    right: 10px;
+    left: auto;
+}
+
+/* Modal windows */
+body.rtl .hajri-modal-header {
+    text-align: right;
+}
+
+body.rtl .hajri-modal-close {
+    float: left;
+}
+
+body.rtl .hajri-modal-body {
+    text-align: right;
+}
+
+body.rtl .hajri-form-submit {
+    text-align: left;
+}
+
+/* Location Selection (Wilaya/Municipality) */
+body.rtl .hajri-location-selector label {
+    text-align: right;
+}
+
+body.rtl .hajri-location-selector select {
+    text-align: right;
+}
+
+/* Payment Method */
+body.rtl .hajri-payment-methods {
+    text-align: right;
+}
+
+body.rtl .hajri-payment-method {
+    text-align: right;
+}
+
+body.rtl .hajri-payment-method-icon {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* Responsive adjustments for RTL */
+@media screen and (max-width: 768px) {
+    body.rtl .hajri-product-form .hajri-form-row {
+        flex-direction: column;
+    }
+    
+    body.rtl .hajri-product-form .hajri-product-image {
+        margin-left: 0;
+    }
+    
+    body.rtl .hajri-checkout-step:after {
+        display: none;
+    }
+}

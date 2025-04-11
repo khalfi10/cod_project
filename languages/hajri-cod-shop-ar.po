@@ -1,0 +1,781 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hajri COD Shop 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-10 12:00+0000\n"
+"PO-Revision-Date: 2023-04-10 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Hajri COD Shop Team\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-hajri-cod-shop-admin.php:108
+msgid "Hajri COD Shop"
+msgstr "متجر الدفع عند الاستلام حجري"
+
+#: admin/class-hajri-cod-shop-admin.php:119
+msgid "Orders"
+msgstr "الطلبات"
+
+#: admin/class-hajri-cod-shop-admin.php:129
+msgid "Products"
+msgstr "المنتجات"
+
+#: admin/class-hajri-cod-shop-admin.php:139
+msgid "Abandoned Carts"
+msgstr "سلات التسوق المتروكة"
+
+#: admin/class-hajri-cod-shop-admin.php:149
+msgid "Analytics"
+msgstr "التحليلات"
+
+#: admin/class-hajri-cod-shop-admin.php:159
+msgid "Algerian Delivery Companies"
+msgstr "شركات التوصيل الجزائرية"
+
+#: admin/class-hajri-cod-shop-admin.php:160
+msgid "Delivery Companies"
+msgstr "شركات التوصيل"
+
+#: admin/class-hajri-cod-shop-admin.php:170
+msgid "Algerian Wilayas & Municipalities"
+msgstr "الولايات والبلديات الجزائرية"
+
+#: admin/class-hajri-cod-shop-admin.php:171
+msgid "Wilayas & Municipalities"
+msgstr "الولايات والبلديات"
+
+#: admin/class-hajri-cod-shop-admin.php:181
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: admin/class-hajri-cod-shop-admin.php:279
+msgid "Permission denied."
+msgstr "تم رفض الإذن."
+
+#: admin/class-hajri-cod-shop-admin.php:300
+msgid "City name is required."
+msgstr "اسم المدينة مطلوب."
+
+#: admin/class-hajri-cod-shop-admin.php:307
+msgid "Shipping cost updated successfully."
+msgstr "تم تحديث تكلفة الشحن بنجاح."
+
+#: admin/class-hajri-cod-shop-admin.php:309
+msgid "Failed to update shipping cost."
+msgstr "فشل تحديث تكلفة الشحن."
+
+#: admin/class-hajri-cod-shop-admin.php:331
+msgid "Invalid order ID."
+msgstr "معرف الطلب غير صالح."
+
+#: admin/class-hajri-cod-shop-admin.php:335
+msgid "Status is required."
+msgstr "الحالة مطلوبة."
+
+#: admin/class-hajri-cod-shop-admin.php:341
+msgid "Order status updated successfully."
+msgstr "تم تحديث حالة الطلب بنجاح."
+
+#: admin/class-hajri-cod-shop-admin.php:343
+msgid "Failed to update order status."
+msgstr "فشل تحديث حالة الطلب."
+
+#: admin/class-hajri-cod-shop-admin.php:411
+msgid "Invalid cart ID."
+msgstr "معرف السلة غير صالح."
+
+#: admin/class-hajri-cod-shop-admin.php:424
+msgid "Abandoned cart deleted successfully."
+msgstr "تم حذف السلة المتروكة بنجاح."
+
+#: admin/class-hajri-cod-shop-admin.php:426
+msgid "Failed to delete abandoned cart."
+msgstr "فشل حذف السلة المتروكة."
+
+#: admin/partials/hajri-cod-shop-locations.php:18
+msgid "Algerian Locations (Wilayas & Municipalities)"
+msgstr "المواقع الجزائرية (الولايات والبلديات)"
+
+#: admin/partials/hajri-cod-shop-locations.php:21
+msgid "Secondary menu"
+msgstr "القائمة الثانوية"
+
+#: admin/partials/hajri-cod-shop-locations.php:22
+msgid "Wilayas (Provinces)"
+msgstr "الولايات (المحافظات)"
+
+#: admin/partials/hajri-cod-shop-locations.php:23
+msgid "Municipalities"
+msgstr "البلديات"
+
+#: admin/partials/hajri-cod-shop-locations.php:24
+msgid "Import/Export"
+msgstr "استيراد/تصدير"
+
+#: admin/partials/hajri-cod-shop-locations.php:31
+msgid "Manage Wilayas"
+msgstr "إدارة الولايات"
+
+#: admin/partials/hajri-cod-shop-locations.php:34
+msgid "Add New Wilaya"
+msgstr "إضافة ولاية جديدة"
+
+#: admin/partials/hajri-cod-shop-locations.php:37
+msgid "Search wilayas..."
+msgstr "البحث عن الولايات..."
+
+#: admin/partials/hajri-cod-shop-locations.php:38
+msgid "Search"
+msgstr "بحث"
+
+#: admin/partials/hajri-cod-shop-locations.php:46
+msgid "Code"
+msgstr "الرمز"
+
+#: admin/partials/hajri-cod-shop-locations.php:47
+msgid "Name (FR)"
+msgstr "الاسم (فرنسي)"
+
+#: admin/partials/hajri-cod-shop-locations.php:48
+msgid "Name (AR)"
+msgstr "الاسم (عربي)"
+
+#: admin/partials/hajri-cod-shop-locations.php:49
+msgid "Shipping Cost"
+msgstr "تكلفة الشحن"
+
+#: admin/partials/hajri-cod-shop-locations.php:50
+msgid "Delivery Days"
+msgstr "أيام التوصيل"
+
+#: admin/partials/hajri-cod-shop-locations.php:51
+msgid "Status"
+msgstr "الحالة"
+
+#: admin/partials/hajri-cod-shop-locations.php:52
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: admin/partials/hajri-cod-shop-locations.php:57
+msgid "Loading wilayas..."
+msgstr "جاري تحميل الولايات..."
+
+#: admin/partials/hajri-cod-shop-locations.php:67
+msgid "Manage Municipalities"
+msgstr "إدارة البلديات"
+
+#: admin/partials/hajri-cod-shop-locations.php:70
+msgid "Add New Municipality"
+msgstr "إضافة بلدية جديدة"
+
+#: admin/partials/hajri-cod-shop-locations.php:73
+msgid "Filter by Wilaya:"
+msgstr "تصفية حسب الولاية:"
+
+#: admin/partials/hajri-cod-shop-locations.php:75
+msgid "All Wilayas"
+msgstr "جميع الولايات"
+
+#: admin/partials/hajri-cod-shop-locations.php:80
+msgid "Search municipalities..."
+msgstr "البحث عن البلديات..."
+
+#: admin/partials/hajri-cod-shop-locations.php:81
+msgid "Search"
+msgstr "بحث"
+
+#: admin/partials/hajri-cod-shop-locations.php:94
+msgid "Wilaya"
+msgstr "الولاية"
+
+#: admin/partials/hajri-cod-shop-locations.php:95
+msgid "Postal Code"
+msgstr "الرمز البريدي"
+
+#: admin/partials/hajri-cod-shop-locations.php:96
+msgid "Extra Fee"
+msgstr "رسوم إضافية"
+
+#: admin/partials/hajri-cod-shop-locations.php:104
+msgid "Select a wilaya to view municipalities"
+msgstr "اختر ولاية لعرض البلديات"
+
+#: admin/partials/hajri-cod-shop-locations.php:113
+msgid "Import/Export Locations"
+msgstr "استيراد/تصدير المواقع"
+
+#: admin/partials/hajri-cod-shop-locations.php:116
+msgid "Import Locations from JSON"
+msgstr "استيراد المواقع من ملف JSON"
+
+#: admin/partials/hajri-cod-shop-locations.php:117
+msgid "You can import wilayas and municipalities from a JSON file. The JSON file should follow the required format."
+msgstr "يمكنك استيراد الولايات والبلديات من ملف JSON. يجب أن يتبع ملف JSON التنسيق المطلوب."
+
+#: admin/partials/hajri-cod-shop-locations.php:124
+msgid "JSON File:"
+msgstr "ملف JSON:"
+
+#: admin/partials/hajri-cod-shop-locations.php:130
+msgid "Import Locations"
+msgstr "استيراد المواقع"
+
+#: admin/partials/hajri-cod-shop-locations.php:137
+msgid "JSON Format Example"
+msgstr "مثال تنسيق JSON"
+
+#: admin/partials/hajri-cod-shop-locations.php:138
+msgid "The JSON file should follow this format:"
+msgstr "يجب أن يتبع ملف JSON هذا التنسيق:"
+
+#: admin/partials/hajri-cod-shop-locations.php:173
+msgid "Add New Wilaya"
+msgstr "إضافة ولاية جديدة"
+
+#: admin/partials/hajri-cod-shop-locations.php:186
+msgid "Wilaya Code:"
+msgstr "رمز الولاية:"
+
+#: admin/partials/hajri-cod-shop-locations.php:187
+msgid "Enter a 1 or 2-digit code (e.g. 16)"
+msgstr "أدخل رمزًا من 1 أو 2 رقم (مثل 16)"
+
+#: admin/partials/hajri-cod-shop-locations.php:188
+msgid "Enter a 1 or 2-digit numeric code (e.g. 16 for Algiers)"
+msgstr "أدخل رمزًا رقميًا مكونًا من 1 أو 2 رقم (مثل 16 للجزائر)"
+
+#: admin/partials/hajri-cod-shop-locations.php:192
+msgid "Wilaya Name (French):"
+msgstr "اسم الولاية (بالفرنسية):"
+
+#: admin/partials/hajri-cod-shop-locations.php:196
+msgid "Wilaya Name (Arabic):"
+msgstr "اسم الولاية (بالعربية):"
+
+#: admin/partials/hajri-cod-shop-locations.php:200
+msgid "Shipping Cost (DZD):"
+msgstr "تكلفة الشحن (دينار جزائري):"
+
+#: admin/partials/hajri-cod-shop-locations.php:204
+msgid "Delivery Days:"
+msgstr "أيام التوصيل:"
+
+#: admin/partials/hajri-cod-shop-locations.php:208
+msgid "Status:"
+msgstr "الحالة:"
+
+#: admin/partials/hajri-cod-shop-locations.php:210
+msgid "Active"
+msgstr "نشط"
+
+#: admin/partials/hajri-cod-shop-locations.php:211
+msgid "Inactive"
+msgstr "غير نشط"
+
+#: admin/partials/hajri-cod-shop-locations.php:216
+msgid "Save Wilaya"
+msgstr "حفظ الولاية"
+
+#: admin/partials/hajri-cod-shop-locations.php:219
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: admin/partials/hajri-cod-shop-locations.php:231
+msgid "Add New Municipality"
+msgstr "إضافة بلدية جديدة"
+
+#: admin/partials/hajri-cod-shop-locations.php:243
+msgid "Wilaya:"
+msgstr "الولاية:"
+
+#: admin/partials/hajri-cod-shop-locations.php:245
+msgid "Select a Wilaya"
+msgstr "اختر ولاية"
+
+#: admin/partials/hajri-cod-shop-locations.php:251
+msgid "Municipality Code:"
+msgstr "رمز البلدية:"
+
+#: admin/partials/hajri-cod-shop-locations.php:252
+msgid "Enter a 4-digit code (e.g. 1601)"
+msgstr "أدخل رمزًا مكونًا من 4 أرقام (مثل 1601)"
+
+#: admin/partials/hajri-cod-shop-locations.php:253
+msgid "Enter a 4-digit code (e.g. 1601 for Algiers Centre)"
+msgstr "أدخل رمزًا مكونًا من 4 أرقام (مثل 1601 لوسط الجزائر)"
+
+#: admin/partials/hajri-cod-shop-locations.php:257
+msgid "Municipality Name (French):"
+msgstr "اسم البلدية (بالفرنسية):"
+
+#: admin/partials/hajri-cod-shop-locations.php:261
+msgid "Municipality Name (Arabic):"
+msgstr "اسم البلدية (بالعربية):"
+
+#: admin/partials/hajri-cod-shop-locations.php:265
+msgid "Postal Code:"
+msgstr "الرمز البريدي:"
+
+#: admin/partials/hajri-cod-shop-locations.php:266
+msgid "Enter a 5-digit postal code (e.g. 16000)"
+msgstr "أدخل رمزًا بريديًا مكونًا من 5 أرقام (مثل 16000)"
+
+#: admin/partials/hajri-cod-shop-locations.php:270
+msgid "Extra Fee (DZD):"
+msgstr "رسوم إضافية (دينار جزائري):"
+
+#: admin/partials/hajri-cod-shop-locations.php:272
+msgid "Additional fee to be added to the wilaya shipping cost"
+msgstr "رسوم إضافية تضاف إلى تكلفة شحن الولاية"
+
+#: admin/partials/hajri-cod-shop-locations.php:276
+msgid "Status:"
+msgstr "الحالة:"
+
+#: admin/partials/hajri-cod-shop-locations.php:278
+msgid "Active"
+msgstr "نشط"
+
+#: admin/partials/hajri-cod-shop-locations.php:279
+msgid "Inactive"
+msgstr "غير نشط"
+
+#: admin/partials/hajri-cod-shop-locations.php:284
+msgid "Save Municipality"
+msgstr "حفظ البلدية"
+
+#: admin/partials/hajri-cod-shop-locations.php:287
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: admin/partials/hajri-cod-shop-locations.php:299
+msgid "Confirm Deletion"
+msgstr "تأكيد الحذف"
+
+#: admin/partials/hajri-cod-shop-locations.php:302
+msgid "Are you sure you want to delete this item? This action cannot be undone."
+msgstr "هل أنت متأكد أنك تريد حذف هذا العنصر؟ لا يمكن التراجع عن هذا الإجراء."
+
+#: admin/partials/hajri-cod-shop-locations.php:306
+msgid "Yes, Delete It"
+msgstr "نعم، احذفه"
+
+#: admin/partials/hajri-cod-shop-locations.php:309
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: admin/partials/hajri-cod-shop-locations.php:440
+msgid "No wilayas found."
+msgstr "لم يتم العثور على ولايات."
+
+#: admin/partials/hajri-cod-shop-locations.php:448
+msgid "Active"
+msgstr "نشط"
+
+#: admin/partials/hajri-cod-shop-locations.php:448
+msgid "Inactive"
+msgstr "غير نشط"
+
+#: admin/partials/hajri-cod-shop-locations.php:452
+msgid "DZD"
+msgstr "دينار جزائري"
+
+#: admin/partials/hajri-cod-shop-locations.php:453
+msgid "days"
+msgstr "أيام"
+
+#: admin/partials/hajri-cod-shop-locations.php:456
+msgid "Edit"
+msgstr "تعديل"
+
+#: admin/partials/hajri-cod-shop-locations.php:458
+msgid "Deactivate"
+msgstr "تعطيل"
+
+#: admin/partials/hajri-cod-shop-locations.php:458
+msgid "Activate"
+msgstr "تفعيل"
+
+#: admin/partials/hajri-cod-shop-locations.php:460
+msgid "Delete"
+msgstr "حذف"
+
+#: admin/partials/hajri-cod-shop-locations.php:465
+msgid "Error loading wilayas."
+msgstr "حدث خطأ أثناء تحميل الولايات."
+
+#: admin/partials/hajri-cod-shop-locations.php:469
+msgid "Error loading wilayas."
+msgstr "حدث خطأ أثناء تحميل الولايات."
+
+#: admin/partials/hajri-cod-shop-locations.php:486
+msgid "No municipalities found."
+msgstr "لم يتم العثور على بلديات."
+
+#: admin/partials/hajri-cod-shop-locations.php:494
+msgid "Active"
+msgstr "نشط"
+
+#: admin/partials/hajri-cod-shop-locations.php:494
+msgid "Inactive"
+msgstr "غير نشط"
+
+#: admin/partials/hajri-cod-shop-locations.php:499
+msgid "DZD"
+msgstr "دينار جزائري"
+
+#: admin/partials/hajri-cod-shop-locations.php:501
+msgid "Edit"
+msgstr "تعديل"
+
+#: admin/partials/hajri-cod-shop-locations.php:503
+msgid "Deactivate"
+msgstr "تعطيل"
+
+#: admin/partials/hajri-cod-shop-locations.php:503
+msgid "Activate"
+msgstr "تفعيل"
+
+#: admin/partials/hajri-cod-shop-locations.php:505
+msgid "Delete"
+msgstr "حذف"
+
+#: admin/partials/hajri-cod-shop-locations.php:510
+msgid "Error loading municipalities."
+msgstr "حدث خطأ أثناء تحميل البلديات."
+
+#: admin/partials/hajri-cod-shop-locations.php:514
+msgid "Error loading municipalities."
+msgstr "حدث خطأ أثناء تحميل البلديات."
+
+#: admin/partials/hajri-cod-shop-locations.php:523
+msgid "All Wilayas"
+msgstr "جميع الولايات"
+
+#: admin/partials/hajri-cod-shop-locations.php:524
+msgid "Select a Wilaya"
+msgstr "اختر ولاية"
+
+#: admin/partials/hajri-cod-shop-locations.php:551
+msgid "Error loading wilaya details."
+msgstr "حدث خطأ أثناء تحميل تفاصيل الولاية."
+
+#: admin/partials/hajri-cod-shop-locations.php:554
+msgid "Error loading wilaya details."
+msgstr "حدث خطأ أثناء تحميل تفاصيل الولاية."
+
+#: admin/partials/hajri-cod-shop-locations.php:575
+msgid "An error occurred. Please try again."
+msgstr "حدث خطأ. يرجى المحاولة مرة أخرى."
+
+#: admin/partials/hajri-cod-shop-locations.php:591
+msgid "Delete Wilaya"
+msgstr "حذف الولاية"
+
+#: admin/partials/hajri-cod-shop-locations.php:592
+msgid "Are you sure you want to delete this wilaya? This action cannot be undone. Note: Wilayas with municipalities cannot be deleted."
+msgstr "هل أنت متأكد أنك تريد حذف هذه الولاية؟ لا يمكن التراجع عن هذا الإجراء. ملاحظة: لا يمكن حذف الولايات التي تحتوي على بلديات."
+
+#: admin/partials/hajri-cod-shop-locations.php:631
+msgid "Error loading municipality details."
+msgstr "حدث خطأ أثناء تحميل تفاصيل البلدية."
+
+#: admin/partials/hajri-cod-shop-locations.php:634
+msgid "Error loading municipality details."
+msgstr "حدث خطأ أثناء تحميل تفاصيل البلدية."
+
+#: admin/partials/hajri-cod-shop-locations.php:655
+msgid "An error occurred. Please try again."
+msgstr "حدث خطأ. يرجى المحاولة مرة أخرى."
+
+#: admin/partials/hajri-cod-shop-locations.php:671
+msgid "Delete Municipality"
+msgstr "حذف البلدية"
+
+#: admin/partials/hajri-cod-shop-locations.php:672
+msgid "Are you sure you want to delete this municipality? This action cannot be undone."
+msgstr "هل أنت متأكد أنك تريد حذف هذه البلدية؟ لا يمكن التراجع عن هذا الإجراء."
+
+#: admin/partials/hajri-cod-shop-locations.php:698
+msgid "An error occurred. Please try again."
+msgstr "حدث خطأ. يرجى المحاولة مرة أخرى."
+
+#: includes/class-hajri-cod-shop-locations.php:61
+msgid "غير مصرح لك بالوصول إلى هذه البيانات"
+msgstr "غير مصرح لك بالوصول إلى هذه البيانات"
+
+#: includes/class-hajri-cod-shop-locations.php:72
+msgid "لم يتم العثور على ولايات"
+msgstr "لم يتم العثور على ولايات"
+
+#: includes/class-hajri-cod-shop-locations.php:85
+msgid "غير مصرح لك بالوصول إلى هذه البيانات"
+msgstr "غير مصرح لك بالوصول إلى هذه البيانات"
+
+#: includes/class-hajri-cod-shop-locations.php:89
+msgid "معرف الولاية مطلوب"
+msgstr "معرف الولاية مطلوب"
+
+#: includes/class-hajri-cod-shop-locations.php:101
+msgid "لم يتم العثور على الولاية"
+msgstr "لم يتم العثور على الولاية"
+
+#: includes/class-hajri-cod-shop-locations.php:114
+msgid "غير مصرح لك بإنشاء ولاية جديدة"
+msgstr "غير مصرح لك بإنشاء ولاية جديدة"
+
+#: includes/class-hajri-cod-shop-locations.php:121
+msgid "جميع الحقول مطلوبة"
+msgstr "جميع الحقول مطلوبة"
+
+#: includes/class-hajri-cod-shop-locations.php:130
+msgid "رمز الولاية موجود بالفعل"
+msgstr "رمز الولاية موجود بالفعل"
+
+#: includes/class-hajri-cod-shop-locations.php:150
+msgid "تم إنشاء الولاية بنجاح"
+msgstr "تم إنشاء الولاية بنجاح"
+
+#: includes/class-hajri-cod-shop-locations.php:153
+msgid "فشل إنشاء الولاية. يرجى المحاولة مرة أخرى."
+msgstr "فشل إنشاء الولاية. يرجى المحاولة مرة أخرى."
+
+#: includes/class-hajri-cod-shop-locations.php:166
+msgid "غير مصرح لك بتعديل الولاية"
+msgstr "غير مصرح لك بتعديل الولاية"
+
+#: includes/class-hajri-cod-shop-locations.php:174
+msgid "جميع الحقول مطلوبة"
+msgstr "جميع الحقول مطلوبة"
+
+#: includes/class-hajri-cod-shop-locations.php:185
+msgid "الولاية غير موجودة"
+msgstr "الولاية غير موجودة"
+
+#: includes/class-hajri-cod-shop-locations.php:196
+msgid "رمز الولاية موجود بالفعل"
+msgstr "رمز الولاية موجود بالفعل"
+
+#: includes/class-hajri-cod-shop-locations.php:220
+msgid "تم تحديث الولاية بنجاح"
+msgstr "تم تحديث الولاية بنجاح"
+
+#: includes/class-hajri-cod-shop-locations.php:222
+msgid "لم يتم إجراء أي تغييرات أو حدث خطأ أثناء التحديث"
+msgstr "لم يتم إجراء أي تغييرات أو حدث خطأ أثناء التحديث"
+
+#: includes/class-hajri-cod-shop-locations.php:235
+msgid "غير مصرح لك بحذف الولاية"
+msgstr "غير مصرح لك بحذف الولاية"
+
+#: includes/class-hajri-cod-shop-locations.php:239
+msgid "معرف الولاية مطلوب"
+msgstr "معرف الولاية مطلوب"
+
+#: includes/class-hajri-cod-shop-locations.php:255
+msgid "لا يمكن حذف الولاية لأنها تحتوي على بلديات. قم بحذف البلديات أولاً."
+msgstr "لا يمكن حذف الولاية لأنها تحتوي على بلديات. قم بحذف البلديات أولاً."
+
+#: includes/class-hajri-cod-shop-locations.php:266
+msgid "تم حذف الولاية بنجاح"
+msgstr "تم حذف الولاية بنجاح"
+
+#: includes/class-hajri-cod-shop-locations.php:268
+msgid "فشل حذف الولاية. يرجى المحاولة مرة أخرى."
+msgstr "فشل حذف الولاية. يرجى المحاولة مرة أخرى."
+
+#: includes/class-hajri-cod-shop-locations.php:281
+msgid "غير مصرح لك بتغيير حالة الولاية"
+msgstr "غير مصرح لك بتغيير حالة الولاية"
+
+#: includes/class-hajri-cod-shop-locations.php:285
+msgid "معرف الولاية مطلوب"
+msgstr "معرف الولاية مطلوب"
+
+#: includes/class-hajri-cod-shop-locations.php:300
+msgid "الولاية غير موجودة"
+msgstr "الولاية غير موجودة"
+
+#: includes/class-hajri-cod-shop-locations.php:319
+msgid "تم تفعيل الولاية بنجاح"
+msgstr "تم تفعيل الولاية بنجاح"
+
+#: includes/class-hajri-cod-shop-locations.php:319
+msgid "تم تعطيل الولاية بنجاح"
+msgstr "تم تعطيل الولاية بنجاح"
+
+#: includes/class-hajri-cod-shop-locations.php:324
+msgid "فشل تغيير حالة الولاية. يرجى المحاولة مرة أخرى."
+msgstr "فشل تغيير حالة الولاية. يرجى المحاولة مرة أخرى."
+
+#: includes/class-hajri-cod-shop-locations.php:337
+msgid "غير مصرح لك بالوصول إلى هذه البيانات"
+msgstr "غير مصرح لك بالوصول إلى هذه البيانات"
+
+#: includes/class-hajri-cod-shop-locations.php:360
+msgid "لم يتم العثور على بلديات"
+msgstr "لم يتم العثور على بلديات"
+
+#: includes/class-hajri-cod-shop-locations.php:375
+msgid "غير مصرح لك بالوصول إلى هذه البيانات"
+msgstr "غير مصرح لك بالوصول إلى هذه البيانات"
+
+#: includes/class-hajri-cod-shop-locations.php:379
+msgid "معرف البلدية مطلوب"
+msgstr "معرف البلدية مطلوب"
+
+#: includes/class-hajri-cod-shop-locations.php:399
+msgid "لم يتم العثور على البلدية"
+msgstr "لم يتم العثور على البلدية"
+
+#: includes/class-hajri-cod-shop-locations.php:414
+msgid "غير مصرح لك بإنشاء بلدية جديدة"
+msgstr "غير مصرح لك بإنشاء بلدية جديدة"
+
+#: includes/class-hajri-cod-shop-locations.php:422
+msgid "جميع الحقول مطلوبة"
+msgstr "جميع الحقول مطلوبة"
+
+#: includes/class-hajri-cod-shop-locations.php:438
+msgid "الولاية المحددة غير موجودة"
+msgstr "الولاية المحددة غير موجودة"
+
+#: includes/class-hajri-cod-shop-locations.php:448
+msgid "رمز البلدية موجود بالفعل"
+msgstr "رمز البلدية موجود بالفعل"
+
+#: includes/class-hajri-cod-shop-locations.php:471
+msgid "تم إنشاء البلدية بنجاح"
+msgstr "تم إنشاء البلدية بنجاح"
+
+#: includes/class-hajri-cod-shop-locations.php:476
+msgid "فشل إنشاء البلدية. يرجى المحاولة مرة أخرى."
+msgstr "فشل إنشاء البلدية. يرجى المحاولة مرة أخرى."
+
+#: includes/class-hajri-cod-shop-locations.php:489
+msgid "غير مصرح لك بتعديل البلدية"
+msgstr "غير مصرح لك بتعديل البلدية"
+
+#: includes/class-hajri-cod-shop-locations.php:498
+msgid "جميع الحقول مطلوبة"
+msgstr "جميع الحقول مطلوبة"
+
+#: includes/class-hajri-cod-shop-locations.php:515
+msgid "البلدية غير موجودة"
+msgstr "البلدية غير موجودة"
+
+#: includes/class-hajri-cod-shop-locations.php:525
+msgid "الولاية المحددة غير موجودة"
+msgstr "الولاية المحددة غير موجودة"
+
+#: includes/class-hajri-cod-shop-locations.php:536
+msgid "رمز البلدية موجود بالفعل"
+msgstr "رمز البلدية موجود بالفعل"
+
+#: includes/class-hajri-cod-shop-locations.php:561
+msgid "تم تحديث البلدية بنجاح"
+msgstr "تم تحديث البلدية بنجاح"
+
+#: includes/class-hajri-cod-shop-locations.php:563
+msgid "لم يتم إجراء أي تغييرات أو حدث خطأ أثناء التحديث"
+msgstr "لم يتم إجراء أي تغييرات أو حدث خطأ أثناء التحديث"
+
+#: includes/class-hajri-cod-shop-locations.php:576
+msgid "غير مصرح لك بحذف البلدية"
+msgstr "غير مصرح لك بحذف البلدية"
+
+#: includes/class-hajri-cod-shop-locations.php:580
+msgid "معرف البلدية مطلوب"
+msgstr "معرف البلدية مطلوب"
+
+#: includes/class-hajri-cod-shop-locations.php:596
+msgid "تم حذف البلدية بنجاح"
+msgstr "تم حذف البلدية بنجاح"
+
+#: includes/class-hajri-cod-shop-locations.php:598
+msgid "فشل حذف البلدية. يرجى المحاولة مرة أخرى."
+msgstr "فشل حذف البلدية. يرجى المحاولة مرة أخرى."
+
+#: includes/class-hajri-cod-shop-locations.php:611
+msgid "غير مصرح لك بتغيير حالة البلدية"
+msgstr "غير مصرح لك بتغيير حالة البلدية"
+
+#: includes/class-hajri-cod-shop-locations.php:615
+msgid "معرف البلدية مطلوب"
+msgstr "معرف البلدية مطلوب"
+
+#: includes/class-hajri-cod-shop-locations.php:630
+msgid "البلدية غير موجودة"
+msgstr "البلدية غير موجودة"
+
+#: includes/class-hajri-cod-shop-locations.php:649
+msgid "تم تفعيل البلدية بنجاح"
+msgstr "تم تفعيل البلدية بنجاح"
+
+#: includes/class-hajri-cod-shop-locations.php:649
+msgid "تم تعطيل البلدية بنجاح"
+msgstr "تم تعطيل البلدية بنجاح"
+
+#: includes/class-hajri-cod-shop-locations.php:654
+msgid "فشل تغيير حالة البلدية. يرجى المحاولة مرة أخرى."
+msgstr "فشل تغيير حالة البلدية. يرجى المحاولة مرة أخرى."
+
+#: includes/class-hajri-cod-shop-locations.php:668
+msgid "معرف الولاية مطلوب"
+msgstr "معرف الولاية مطلوب"
+
+#: includes/class-hajri-cod-shop-locations.php:686
+msgid "لم يتم العثور على بلديات للولاية المحددة"
+msgstr "لم يتم العثور على بلديات للولاية المحددة"
+
+#: includes/class-hajri-cod-shop-locations.php:701
+msgid "غير مصرح لك باستيراد البيانات"
+msgstr "غير مصرح لك باستيراد البيانات"
+
+#: includes/class-hajri-cod-shop-locations.php:706
+msgid "يرجى تحميل ملف JSON صالح"
+msgstr "يرجى تحميل ملف JSON صالح"
+
+#: includes/class-hajri-cod-shop-locations.php:712
+msgid "الملف فارغ"
+msgstr "الملف فارغ"
+
+#: includes/class-hajri-cod-shop-locations.php:718
+msgid "تنسيق JSON غير صالح:"
+msgstr "تنسيق JSON غير صالح:"
+
+#: includes/class-hajri-cod-shop-locations.php:723
+msgid "الملف لا يحتوي على بيانات صحيحة للولايات"
+msgstr "الملف لا يحتوي على بيانات صحيحة للولايات"
+
+#: includes/class-hajri-cod-shop-locations.php:847
+msgid "تم استيراد %d ولاية"
+msgstr "تم استيراد %d ولاية"
+
+#: includes/class-hajri-cod-shop-locations.php:847
+msgid "تم استيراد %d ولايات"
+msgstr "تم استيراد %d ولايات"
+
+#: includes/class-hajri-cod-shop-locations.php:850
+msgid "و %d بلدية"
+msgstr "و %d بلدية"
+
+#: includes/class-hajri-cod-shop-locations.php:850
+msgid "و %d بلديات"
+msgstr "و %d بلديات"
+
+#: includes/class-hajri-cod-shop-locations.php:853
+msgid "تم تحديث البيانات الموجودة"
+msgstr "تم تحديث البيانات الموجودة"
+
+#: includes/class-hajri-cod-shop-locations.php:865
+msgid "حدث خطأ أثناء استيراد البيانات:"
+msgstr "حدث خطأ أثناء استيراد البيانات:"

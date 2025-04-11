@@ -1,0 +1,232 @@
+/**
+ * RTL (Right-to-Left) Admin styles for Hajri COD Shop
+ *
+ * @link       https://example.com
+ * @since      1.0.0
+ *
+ * @package    Hajri_Cod_Shop
+ * @subpackage Hajri_Cod_Shop/admin/css
+ */
+
+/* General RTL Layout */
+body.rtl .hajri-cod-shop-admin {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Dashboard Cards */
+body.rtl .hajri-dashboard-cards {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-card-header {
+    text-align: right;
+}
+
+body.rtl .hajri-card-content {
+    text-align: center;
+}
+
+body.rtl .hajri-card-footer {
+    text-align: center;
+}
+
+/* Dashboard Sections */
+body.rtl .hajri-dashboard-sections {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-section h2 {
+    text-align: right;
+}
+
+/* Tables */
+body.rtl .hajri-table-container table th,
+body.rtl .hajri-table-container table td {
+    text-align: right;
+}
+
+/* Quick Links */
+body.rtl .hajri-links-grid {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-quick-link {
+    flex-direction: row-reverse;
+}
+
+/* Settings Page */
+body.rtl .hajri-settings-tabs {
+    direction: rtl;
+}
+
+body.rtl .hajri-tabs-nav {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-tabs-content {
+    text-align: right;
+}
+
+/* Form Elements */
+body.rtl .hajri-form-row {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-form-field {
+    text-align: right;
+}
+
+body.rtl .hajri-form-field label {
+    text-align: right;
+}
+
+body.rtl .hajri-form-actions {
+    text-align: left;
+}
+
+/* Filters */
+body.rtl .hajri-filter-row {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-filter-item {
+    text-align: right;
+}
+
+body.rtl .hajri-filter-item label {
+    text-align: right;
+}
+
+body.rtl .hajri-filter-actions {
+    text-align: left;
+}
+
+/* Order Details */
+body.rtl .hajri-order-details {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-order-meta {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-meta-box h3 {
+    text-align: right;
+}
+
+body.rtl .hajri-order-products {
+    text-align: right;
+}
+
+body.rtl .hajri-order-actions {
+    text-align: right;
+}
+
+/* Analytics Page */
+body.rtl .hajri-period-selector {
+    text-align: right;
+}
+
+body.rtl .hajri-analytics-grid {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-analytics-widget {
+    text-align: right;
+}
+
+/* Cities List */
+body.rtl .hajri-cities-list li {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-city-name {
+    text-align: right;
+}
+
+body.rtl .hajri-city-count {
+    text-align: left;
+}
+
+/* Loader */
+body.rtl .hajri-loader-container {
+    direction: ltr; /* Keep loading animations in LTR */
+}
+
+/* Locations Page Specific RTL */
+body.rtl .hajri-locations-admin .actions-row {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-locations-admin .wilaya-filter {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+body.rtl .hajri-locations-admin .wilaya-filter label {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+body.rtl .hajri-locations-admin .search-box input[type="search"] {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+body.rtl .hajri-locations-admin table td.actions {
+    flex-direction: row-reverse;
+}
+
+body.rtl .hajri-modal-close {
+    float: left;
+}
+
+body.rtl .hajri-modal-body {
+    text-align: right;
+}
+
+body.rtl .form-submit {
+    justify-content: flex-start;
+}
+
+/* Form Settings */
+body.rtl .hajri-form-fields-table th,
+body.rtl .hajri-form-fields-table td {
+    text-align: right;
+}
+
+body.rtl .hajri-drag-handle {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+body.rtl .hajri-variation-item {
+    flex-direction: row-reverse;
+}
+
+body.rtl .remove-variation {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+/* Delivery Companies Page */
+body.rtl .hajri-company-form {
+    text-align: right;
+}
+
+body.rtl .hajri-company-auth-fields {
+    text-align: right;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 782px) {
+    body.rtl .hajri-dashboard-cards,
+    body.rtl .hajri-dashboard-sections,
+    body.rtl .hajri-order-details,
+    body.rtl .hajri-form-row,
+    body.rtl .hajri-filter-row {
+        flex-direction: column;
+    }
+}

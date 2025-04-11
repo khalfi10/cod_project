@@ -1,0 +1,506 @@
+/**
+ * Public-facing styles for Hajri COD Shop
+ *
+ * @link       https://example.com
+ * @since      1.0.0
+ *
+ * @package    Hajri_Cod_Shop
+ * @subpackage Hajri_Cod_Shop/public/css
+ */
+
+/* General Styles */
+.hajri-cod-shop-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 0;
+}
+
+/* Product Grid Styles */
+.hajri-product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.hajri-product-item {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hajri-product-item:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.hajri-column-1 { width: 100%; }
+.hajri-column-2 { width: calc(50% - 15px); }
+.hajri-column-3 { width: calc(33.333% - 20px); }
+.hajri-column-4 { width: calc(25% - 22.5px); }
+.hajri-column-5 { width: calc(20% - 24px); }
+.hajri-column-6 { width: calc(16.666% - 25px); }
+
+.hajri-product-image {
+    overflow: hidden;
+    position: relative;
+}
+
+.hajri-product-image img {
+    display: block;
+    height: auto;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.hajri-product-item:hover .hajri-product-image img {
+    transform: scale(1.05);
+}
+
+.hajri-product-title {
+    font-size: 18px;
+    margin: 15px 15px 10px;
+    padding: 0;
+}
+
+.hajri-product-title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.hajri-product-title a:hover {
+    color: #0073aa;
+}
+
+.hajri-product-excerpt {
+    color: #666;
+    font-size: 14px;
+    margin: 0 15px 15px;
+}
+
+.hajri-product-price {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 15px 15px;
+}
+
+.hajri-regular-price {
+    color: #999;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+
+.hajri-sale-price {
+    color: #e03232;
+}
+
+.hajri-price {
+    color: #333;
+}
+
+.hajri-product-actions {
+    margin: auto 15px 0;
+}
+
+.hajri-button {
+    background: #0073aa;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.hajri-button:hover {
+    background: #005d8c;
+    color: white;
+}
+
+/* Single Product Page Styles */
+.hajri-single-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.hajri-product-image {
+    flex: 1 1 400px;
+}
+
+.hajri-product-details {
+    flex: 1 1 400px;
+}
+
+.hajri-product-stock {
+    margin-bottom: 20px;
+}
+
+.hajri-in-stock {
+    color: #5cb85c;
+    font-weight: 600;
+}
+
+.hajri-out-of-stock {
+    color: #d9534f;
+    font-weight: 600;
+}
+
+.hajri-product-content {
+    margin-bottom: 30px;
+}
+
+.hajri-related-products {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.hajri-related-products h3 {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+/* Form Styles */
+.hajri-product-form-wrapper,
+.hajri-standalone-form-wrapper {
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.hajri-form-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hajri-form-tagline {
+    color: #666;
+}
+
+.hajri-form-product-info {
+    margin-bottom: 20px;
+}
+
+.hajri-form-product-info h4 {
+    margin-top: 0;
+}
+
+.hajri-form-product-image {
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.hajri-form-product-image img {
+    border-radius: 4px;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.hajri-form-product-excerpt {
+    margin-bottom: 15px;
+}
+
+.hajri-form-product-price {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hajri-order-form {
+    max-width: 100%;
+}
+
+.hajri-form-row {
+    margin-bottom: 20px;
+}
+
+.hajri-two-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hajri-two-columns .hajri-form-group {
+    flex: 1 1 300px;
+}
+
+.hajri-form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.hajri-input,
+.hajri-textarea,
+.hajri-select,
+.hajri-quantity-input,
+.hajri-city-select {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 10px 12px;
+    width: 100%;
+}
+
+.hajri-textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.hajri-form-help {
+    color: #777;
+    display: block;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.hajri-form-checkbox {
+    align-items: flex-start;
+    display: flex;
+    gap: 10px;
+}
+
+.hajri-form-checkbox input {
+    margin-top: 4px;
+}
+
+.hajri-submit-btn {
+    background: #0073aa;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-align: center;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+.hajri-submit-btn:hover {
+    background: #005d8c;
+}
+
+.hajri-submit-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.hajri-response-messages {
+    margin-top: 15px;
+}
+
+.hajri-success-message {
+    background: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: 3px;
+    color: #3c763d;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+}
+
+.hajri-error-message {
+    background: #f2dede;
+    border: 1px solid #ebccd1;
+    border-radius: 3px;
+    color: #a94442;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+}
+
+.hajri-form-footer {
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.hajri-cod-notice {
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+}
+
+.required {
+    color: #e03232;
+}
+
+/* Order Summary Styles */
+.hajri-order-summary {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.hajri-order-summary h4 {
+    border-bottom: 1px solid #eee;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+.hajri-summary-row {
+    border-bottom: 1px solid #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.hajri-summary-row:last-child {
+    border-bottom: none;
+}
+
+.hajri-total-row {
+    border-top: 1px solid #eee;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+    padding-top: 15px;
+}
+
+.hajri-summary-product {
+    margin-bottom: 15px;
+}
+
+.hajri-summary-product-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Product Selector Styles for Standalone Form */
+.hajri-product-selector {
+    margin-bottom: 30px;
+}
+
+.hajri-products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.hajri-product-select-item {
+    background: #fff;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex: 1 1 300px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    transition: border-color 0.3s ease;
+}
+
+.hajri-product-select-item.selected {
+    border-color: #0073aa;
+}
+
+.hajri-select-item-image {
+    flex-basis: 80px;
+    margin-right: 15px;
+}
+
+.hajri-select-item-image img {
+    border-radius: 3px;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.hajri-select-item-details {
+    flex-grow: 1;
+}
+
+.hajri-select-item-details h4 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.hajri-select-item-price {
+    margin-bottom: 5px;
+}
+
+.hajri-select-radio {
+    display: none;
+}
+
+/* Form Section Styles */
+.hajri-form-section,
+.hajri-order-summary-section {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.hajri-form-section h3,
+.hajri-order-summary-section h3 {
+    border-bottom: 1px solid #eee;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+/* Validation Styles */
+.hajri-input:invalid,
+.hajri-textarea:invalid,
+.hajri-select:invalid,
+.hajri-city-select:invalid {
+    border-color: #e03232;
+}
+
+.hajri-input:focus,
+.hajri-textarea:focus,
+.hajri-select:focus,
+.hajri-city-select:focus {
+    border-color: #0073aa;
+    outline: none;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .hajri-column-2,
+    .hajri-column-3,
+    .hajri-column-4,
+    .hajri-column-5,
+    .hajri-column-6 {
+        width: 100%;
+    }
+    
+    .hajri-single-product {
+        flex-direction: column;
+    }
+    
+    .hajri-product-image,
+    .hajri-product-details {
+        flex-basis: 100%;
+    }
+    
+    .hajri-two-columns .hajri-form-group {
+        flex-basis: 100%;
+    }
+    
+    .hajri-product-select-item {
+        flex-basis: 100%;
+    }
+}
